@@ -1,4 +1,4 @@
-name: Live Stream to OK.ru
+name: بث to OK.ru
 
 on:
   workflow_dispatch: 
@@ -13,4 +13,4 @@ jobs:
       - name: Start Streaming
         run: |
           ffmpeg -re -i "http://familylocals.top:80/AgCeEwpdgd/cvyV6aSjQ3/22903.m3u8" \
-          -c copy -f flv "rtmp://vsu.okcdn.ru/input/10822845537836_9956961356332_nbdfeuf4ve"
+          -c copy -f flv "rtmp://vsu.okcdn.ru/input/10822992404012_9957160847916_kf6ncqkwrq"
