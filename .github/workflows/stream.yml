@@ -1,7 +1,7 @@
 name: Live Stream to OK.ru
 
 on:
-  workflow_dispatch: # يسمح لك بتشغيل البث يدوياً
+  workflow_dispatch: 
 
 jobs:
   streaming:
@@ -12,5 +12,5 @@ jobs:
 
       - name: Start Streaming
         run: |
-          ffmpeg -re -i "https://live-hls-web-aja-gcp.thehlive.com/AJA/01.m3u8" \
-          -c copy -f flv "${{ secrets.rtmp://vsu.okcdn.ru/input/10822329310764_9956269689388_meguit5qlq }}"
+          ffmpeg -re -i "http://familylocals.top:80/AgCeEwpdgd/cvyV6aSjQ3/22903.m3u8" \
+          -c copy -f flv "rtmp://vsu.okcdn.ru/input/10822329310764_9956269689388_meguit5qlq"
