@@ -13,4 +13,4 @@ jobs:
       - name: Start Streaming
         run: |
           ffmpeg -re -i "http://familylocals.top:80/AgCeEwpdgd/cvyV6aSjQ3/22903.m3u8" \
-          -c copy -f flv "rtmp://vsu.okcdn.ru/input/10822992404012_9957160847916_kf6ncqkwrq"
+          -c copy -f flv "rtmp://vsu.mycdn.me/input/910402145640_910402145640_71_2p5q36d3vq"
